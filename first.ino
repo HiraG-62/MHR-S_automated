@@ -40,7 +40,7 @@ void loop() {
     SwitchController().pressButton(Button::ZL);
     pushButton(Button::X, 100);
     SwitchController().releaseButton(Button::ZL);
-    delay(20000);
+    delay(25000);
     SwitchController().setStickTiltRatio(0, 0, 0, 0);
     SwitchController().releaseButton(Button::R);
     pushButton(Button::A, 500, 20);
