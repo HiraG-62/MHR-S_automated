@@ -87,5 +87,5 @@ void loop() {
   SwitchController().pressButton(Button::R);
   tiltJoystick(100, 0, 0, 0, 2300);
   SwitchController().releaseButton(Button::R);
-  
+  delay(1000);
 }
